@@ -5,6 +5,5 @@
     [LCourseId] VARCHAR(50) NULL,
     [LecturerName] VARCHAR(50) NULL, 
     PRIMARY KEY ([LecturerId], [LSemesterId]),
-    CONSTRAINT FK_Lecturer_Course FOREIGN KEY ([LCourseId]) REFERENCES [Course](CourseId),
 )
 
